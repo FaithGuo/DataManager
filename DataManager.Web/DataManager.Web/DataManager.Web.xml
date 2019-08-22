@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataManager.Web</name>
+    </assembly>
+    <members>
+        <member name="M:DataManager.Web.Controllers.SwaggerTestController.Test">
+            <summary>
+            这是一个Swagger测试接口
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

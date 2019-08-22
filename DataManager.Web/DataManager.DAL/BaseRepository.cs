@@ -335,9 +335,6 @@ namespace DataManager.DAL
         public T Query<T>(Expression<Func<T, bool>> whereLambda) where T : class, new()
         {
             return DbContext.Queryable<T>().With(SqlWith.NoLock).Where(whereLambda).First();
-            var str = DbContext.Queryable<T>().With(SqlWith.NoLock).Where(whereLambda).ToSql();
-            Console.WriteLine(str);
-            return null;
         }
 
         /// <summary>
